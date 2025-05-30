@@ -91,7 +91,14 @@ end
 
 TODO:
 # 1. Define own `my_attribute_reader` 
+class Animal
+
+end
+
+
 class Dog < Animal
+	# What;s the self scope here?
+	# where it should be defined
 	my_attribute_reader :name, :age
 
 end
@@ -99,6 +106,8 @@ end
 
 
 # 2. make simplified methods for `validates` , `belongs_to`
+class MyApplicationRecord
+end
 
 class Dog < MyApplicationRecord
 	belongs_to :owner

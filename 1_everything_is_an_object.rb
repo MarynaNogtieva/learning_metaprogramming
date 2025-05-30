@@ -1,5 +1,5 @@
 
-# Evrything iz an object in Ruby
+# Evrything is an object in Ruby
 # Usually Ruby code is evaluated within the Object class 
 
 class Object
@@ -9,7 +9,7 @@ class Object
 	  end
 	  
 	  puts foo
-	  puts self # ny_main #<Object:0x00000001318b3bc0>
+	  puts self # my_main #<Object:0x00000001318b3bc0>
 		puts self.class # Object
 	  
   end
